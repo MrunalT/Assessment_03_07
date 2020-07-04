@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suit" verbose="10">
+	<test thread-count="1" name="App Test">
+		<classes>
+			<class name="com.App.qa.testcases.SignUpApplication" />
+			<class name="com.App.qa.testcases.InvalidLogin" />
+			<class name="com.App.qa.testcases.ValidLogin" />
+	
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
